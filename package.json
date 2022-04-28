@@ -1,0 +1,28 @@
+{
+  "name": "sunflower",
+  "version": "1.0.0",
+  "description": "- It is a python project to control a step-to-step motor",
+  "main": "main.py",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CpEtoile/sunflower.git"
+  },
+  "author": "cpEtoile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CpEtoile/sunflower/issues"
+  },
+  "homepage": "https://github.com/CpEtoile/sunflower#readme",
+  "devDependencies": {
+    "jest": "28.0.2",
+    "jest-python": "1.0.5"
+  },
+  "jest": {
+    "runner": "jest-python",
+    "testMatch": ["**/test_*.py"],
+    "moduleFileExtensions": ["py"]
+  }
+}
